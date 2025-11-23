@@ -1,0 +1,39 @@
+# GitHub Pages Jekyll Configuration for TROP Privacy Policy
+
+# Site settings
+title: TROP Privacy Policy
+description: Privacy Policy for TROP - Tactical Reconnaissance Operations Platform
+author: DefenceBay
+
+# GitHub Pages theme (optional - we're using custom HTML)
+# Uncomment one of these if you want a Jekyll theme:
+# theme: minima
+# remote_theme: pages-themes/minimal@v0.2.0
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO settings
+lang: en-US
+url: "https://yourusername.github.io"  # Replace with your GitHub Pages URL
+baseurl: "/trop"  # Replace with your repository name
+
+# Social (optional)
+# twitter:
+#   username: yourtwitter
+# social:
+#   name: DefenceBay
+#   links:
+#     - https://github.com/yourusername
+
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXXXX-X
